@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:indeterminateTint="#006CAF" />
+
+    <ImageView
+        android:id="@+id/gifView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        />
+
+    <LinearLayout
+        android:layout_marginBottom="15dp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15.0dip"
+        android:layout_marginRight="15.0dip"
+        android:layout_weight="2.0"
+        android:orientation="horizontal"
+        android:weightSum="2.0">
+
+        <RelativeLayout
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="10.0dip"
+            android:layout_weight="1.0">
+
+            <ImageView
+                android:id="@+id/exit_app_bt"
+                android:layout_width="fill_parent"
+                android:layout_height="?actionBarSize"
+                android:layout_centerInParent="true"
+                android:background="@drawable/exit_app_bt_gradient_bg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:paddingTop="5dp"
+                android:text="Exit App"
+                android:textColor="@color/white"
+                android:textSize="18.0sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0">
+
+            <ImageView
+                android:id="@+id/retry_bt"
+                android:layout_width="fill_parent"
+                android:layout_height="?actionBarSize"
+                android:layout_centerInParent="true"
+                android:background="@drawable/cancel_bt_gradient_bg" />
+
+            <TextView
+                android:paddingTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Retry"
+                android:textColor="@color/white"
+                android:textSize="18.0sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

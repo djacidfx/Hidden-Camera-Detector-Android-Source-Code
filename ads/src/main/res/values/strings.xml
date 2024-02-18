@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Ads</string>
+
+
+<!--    <string name="bnr_admob" translatable="false"></string>-->
+<!--    <string name="native_admob" translatable="false"></string>-->
+<!--    <string name="int_admob" translatable="false"></string>-->
+<!--    <string name="app_open_admob" translatable="false"></string>-->
+<!--    <string name="video_admob" translatable="false"></string>-->
+</resources>

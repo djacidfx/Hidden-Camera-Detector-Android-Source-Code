@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/splash" />
+
+    <RelativeLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@drawable/bg_toolbar">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_alignParentBottom="true"
+            android:fontFamily="@font/fontsemibold"
+            android:gravity="center"
+            android:text="Metal Detected"
+            android:textColor="@color/white"
+            android:textSize="19dp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/nativeLay"
+        android:layout_below="@+id/toolbar"
+        android:orientation="vertical">
+
+        <com.example.app.GaugeView
+            android:id="@+id/gauge_view1"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="80dp"
+            android:layout_gravity="center" />
+        <TextView
+            android:id="@+id/value2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/fonrmedium"
+            android:text="Potential Camera/Small Speaker Detected!"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <TextView
+            android:id="@+id/hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/fonrmedium"
+            android:text="Move Phone Close to suspect by 2 inches"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <TextView
+            android:id="@+id/value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginTop="40dp"
+            android:padding="10dp"
+            android:background="@drawable/btn_bg"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/fontbold"
+            android:gravity="center"
+            android:text="25.00"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/nativeLay"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" />
+</RelativeLayout>
