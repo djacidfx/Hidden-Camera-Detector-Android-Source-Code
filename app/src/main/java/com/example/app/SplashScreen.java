@@ -6,7 +6,7 @@ import android.os.Handler;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.google.firebase.messaging.FirebaseMessaging;
+// import com.google.firebase.messaging.FirebaseMessaging;
 
 import vocsy.ads.AdsHandler;
 import vocsy.ads.GetSmartAdmob;
@@ -31,7 +31,7 @@ public final class SplashScreen extends AppCompatActivity {
         }).execute();
 
         AdsHandler.setAdsOn(true);
-        FirebaseMessaging.getInstance().subscribeToTopic(getPackageName());
+//        FirebaseMessaging.getInstance().subscribeToTopic(getPackageName());
         getWindow().setFlags(1024, 1024);
         new Handler(getMainLooper()).postDelayed(() -> startActivity(new Intent(SplashScreen.this, GetStart.class)), 2500L);
     }

@@ -44,7 +44,7 @@
     <string name="app_name">Hidden Camera Detector</string>
     <string name="appbar_scrolling_view_behavior">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
     <string name="applovin_list_item_image_description">Displays more info about the list item.</string>
-    <string name="banner">520900e2ea06d4e3</string>
+    <!-- <string name="banner">520900e2ea06d4e3</string> -->
     <string name="bottom_sheet_behavior">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
     <string name="bottomsheet_action_expand_halfway">Expand halfway</string>
     <string name="character_counter_content_description">Characters entered %1$d of %2$d</string>
@@ -71,7 +71,7 @@
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
     <string name="copy_toast_msg">Link copied to clipboard</string>
-    <string name="default_web_client_id">298481595227-86d6rfm6gb3lg7l4oqkhuhi26gcns7ed.apps.googleusercontent.com</string>
+    <!-- <string name="default_web_client_id">298481595227-86d6rfm6gb3lg7l4oqkhuhi26gcns7ed.apps.googleusercontent.com</string> -->
     <string name="error_icon_content_description">Error</string>
     <string name="exo_controls_cc_disabled_description">Enable subtitles</string>
     <string name="exo_controls_cc_enabled_description">Disable subtitles</string>
@@ -131,14 +131,14 @@
     <string name="fallback_menu_item_open_in_browser">Open in browser</string>
     <string name="fallback_menu_item_share_link">Share link</string>
     <string name="fcm_fallback_notification_channel_label">Miscellaneous</string>
-    <string name="gcm_defaultSenderId">298481595227</string>
+    <!--<string name="gcm_defaultSenderId">298481595227</string>
     <string name="google_api_key">AIzaSyDgxkWjzvuAWhsrBwoJVtgjfUVQoQofvhk</string>
     <string name="google_app_id">1:298481595227:android:dcbd6b5fc68f6b19dba07e</string>
     <string name="google_crash_reporting_api_key">AIzaSyDgxkWjzvuAWhsrBwoJVtgjfUVQoQofvhk</string>
-    <string name="google_storage_bucket">hiideen-camera.appspot.com</string>
+    <string name="google_storage_bucket">hiideen-camera.appspot.com</string> -->
     <string name="hide_bottom_view_on_scroll_behavior">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
     <string name="icon_content_description">Dialog Icon</string>
-    <string name="interstitial">360ac723a2e35e11</string>
+   <!-- <string name="interstitial">360ac723a2e35e11</string> -->
     <string name="item_view_role_description">Tab</string>
     <string name="label">Label</string>
     <string name="m3_ref_typeface_brand_medium">sans-serif-medium</string>
@@ -232,7 +232,7 @@
     <string name="s5">Create calendar event</string>
     <string name="s6">Allow Ad to create a calendar event?</string>
     <string name="s7">Test Ad</string>
-    <string name="sdk_key">8m3_wf5yVf7hFkdQizIKEEoMKI0mDowWn-1dR640rAg7_W74aV6lkaJTCQkPvAwfJh1stZXvUU0avxHzArhvSS</string>
+   <!-- <string name="sdk_key">8m3_wf5yVf7hFkdQizIKEEoMKI0mDowWn-1dR640rAg7_W74aV6lkaJTCQkPvAwfJh1stZXvUU0avxHzArhvSS</string> -->
     <string name="search_menu_title">Search</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="text1">Camera Detector is an application which utilizes Magnetic Field Sensor.This highlight needs attractive sensor (magnetometer) in your gadget. In the event that attractive sensor is absent, application will show No attractive sensor accessible in your gadget message and this component wont be accessible.</string>
